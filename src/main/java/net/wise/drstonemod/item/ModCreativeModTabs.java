@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.wise.drstonemod.DrStoneMod;
+import net.wise.drstonemod.block.ModBlocks;
 
 public class ModCreativeModTabs
 {
@@ -18,8 +19,14 @@ public class ModCreativeModTabs
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.DRAGO.get()))
                     .title(Component.translatable("creativetab.drstone_tab"))
                     .displayItems((pParameters, pOutput) ->{
+
+                        // Items
                         pOutput.accept(ModItems.DRAGO.get());
                         pOutput.accept(ModItems.REJUVENATING_FLUID.get());
+                        pOutput.accept(ModItems.HEMP.get());
+
+                        //Blocks
+                        pOutput.accept(ModBlocks.BUNDLE_OF_HEMP.get());
 
                     })
                     .build());

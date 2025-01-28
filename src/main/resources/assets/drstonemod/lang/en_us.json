@@ -1,6 +1,10 @@
 {
+
   "item.drstonemod.drago": "Drago",
   "item.drstonemod.rejuvenating_fluid": "Miracle Fluid",
+  "item.drstonemod.hemp": "Hemp",
+
+  "block.drstonemod.bundle_of_hemp": "Bundle of Hemp",
 
   "creativetab.drstone_tab": "Dr Stone Mod"
 
