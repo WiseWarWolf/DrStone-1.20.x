@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key":{
+    "#": {
+      "item": "drstonemod:hemp"
+    }
+  },
+  "result": {
+    "item": "drstonemod:bundle_of_hemp"
+  },
+  "show_notification": true
+}
