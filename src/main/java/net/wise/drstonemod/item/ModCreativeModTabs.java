@@ -25,6 +25,9 @@ public class ModCreativeModTabs
                         pOutput.accept(ModItems.REJUVENATING_FLUID.get());
                         pOutput.accept(ModItems.HEMP.get());
 
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.SULFA_DRUG.get());
+
                         //Blocks
                         pOutput.accept(ModBlocks.BUNDLE_OF_HEMP.get());
 
