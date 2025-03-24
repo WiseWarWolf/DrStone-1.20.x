@@ -1,0 +1,9 @@
+{
+  "parent": "bucketlib:item/universal_bucket",
+  "textures": {
+    "base": "drstonemod:item/clay_pot",
+    "lowerBase": "drstonemod:item/clay_pot_lower",
+    "crackedBase": "drstonemod:item/clay_pot",
+    "crackedLowerBase": "drstonemod:item/clay_pot_lower"
+  }
+}

@@ -7,7 +7,17 @@
   "item.drstonemod.metal_detector": "Metal Detector",
   "item.drstonemod.sulfa_drug": "Sulfa Drug",
 
+  "item.drstonemod.bow_drill": "Bow Drill",
+  "item.drstonemod.clay_pot": "Clay Pot",
+  "item.drstonemod.clay_pot.entity": "Clay Pot of %s",
+  "item.drstonemod.clay_pot.filled": "Clay Pot of %s",
+
+  "fluid_type.drstonemod.wine_fluid": "Wine",
+  "fluid_type.drstonemod.bat_fluid": "Nitric Acid",
+  "fluid_type.drstonemod.eth_fluid": "Ethanol",
+
   "block.drstonemod.bundle_of_hemp": "Bundle of Hemp",
+  "block.drstonemod.block_of_salt": "Block of Salt",
 
   "creativetab.drstone_tab": "Dr Stone Mod"
 

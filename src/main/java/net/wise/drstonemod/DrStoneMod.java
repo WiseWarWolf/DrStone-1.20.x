@@ -1,6 +1,9 @@
 package net.wise.drstonemod;
 
+import cech12.bucketlib.api.BucketLibApi;
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -13,8 +16,11 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.wise.drstonemod.block.ModBlocks;
+import net.wise.drstonemod.fluid.ModFluidTypes;
+import net.wise.drstonemod.fluid.ModFluids;
 import net.wise.drstonemod.item.ModCreativeModTabs;
 import net.wise.drstonemod.item.ModItems;
 import org.slf4j.Logger;
@@ -38,13 +44,18 @@ public class DrStoneMod
         ModBlocks.register(modEventBus);
 
 
+        ModFluids.register(modEventBus);
+        ModFluidTypes.register(modEventBus);
+
+
+
         modEventBus.addListener(this::commonSetup);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
         // Register the item to a creative tab
-        modEventBus.addListener(this::addCreative);
+        modEventBus.addListener(this::sendImc);
 
     }
 
@@ -53,9 +64,9 @@ public class DrStoneMod
     }
 
     // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
-    {
-
+    private void sendImc(InterModEnqueueEvent evt) {
+        //register your bucket at the BucketLib mod to activate all features for your bucket
+        BucketLibApi.registerBucket(ModItems.CLAY_POT.getId());
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
@@ -71,6 +82,12 @@ public class DrStoneMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_WINE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_WINE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_BAT.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_BAT.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_ETH.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_ETH.get(), RenderType.translucent());
 
         }
     }

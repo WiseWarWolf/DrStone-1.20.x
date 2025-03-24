@@ -16,6 +16,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.BUNDLE_OF_HEMP);
+        blockWithItem(ModBlocks.BLOCK_OF_SALT);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

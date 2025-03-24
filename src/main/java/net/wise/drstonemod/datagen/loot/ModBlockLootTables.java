@@ -19,6 +19,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(ModBlocks.BUNDLE_OF_HEMP.get());
+        this.dropSelf(ModBlocks.BLOCK_OF_SALT.get());
     }
 
     @Override
