@@ -4,7 +4,6 @@ import cech12.bucketlib.api.item.UniversalBucketItem;
 import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.FlintAndSteelItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -13,7 +12,7 @@ import net.wise.drstonemod.DrStoneMod;
 import net.wise.drstonemod.fluid.ModFluids;
 import net.wise.drstonemod.item.custom.MetalDetectorItem;
 
-public class ModItems extends Items{
+public class ModItems{
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, DrStoneMod.MOD_ID);
 
@@ -28,6 +27,12 @@ public class ModItems extends Items{
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> SALT = ITEMS.register("salt",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ROPE = ITEMS.register("rope",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> GRASS_SKIRT = ITEMS.register("grass_skirt",
             () -> new Item(new Item.Properties()));
 
     // Advanced Items

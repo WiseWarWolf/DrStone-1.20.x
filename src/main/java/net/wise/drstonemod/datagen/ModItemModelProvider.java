@@ -24,6 +24,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.REJUVENATING_FLUID);
         simpleItem(ModItems.CLAY_POT);
         simpleItem(ModItems.BOW_DRILL);
+        simpleItem(ModItems.ROPE);
+        simpleItem(ModItems.GRASS_SKIRT);
+        simpleItem(ModItems.SALT);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

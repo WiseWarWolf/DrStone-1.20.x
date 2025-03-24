@@ -34,7 +34,11 @@ public class ModCreativeModTabs
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModItems.SULFA_DRUG.get());
                         pOutput.accept(ModItems.BOW_DRILL.get());
+                        pOutput.accept(ModItems.ROPE.get());
+                        pOutput.accept(ModItems.SALT.get());
 
+                        //Armor
+                        pOutput.accept(ModItems.GRASS_SKIRT.get());
 
                         //Blocks
                         pOutput.accept(ModBlocks.BUNDLE_OF_HEMP.get());

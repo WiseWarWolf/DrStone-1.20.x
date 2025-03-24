@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "drstonemod:block_of_salt"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "drstonemod:salt"
+  }
+}

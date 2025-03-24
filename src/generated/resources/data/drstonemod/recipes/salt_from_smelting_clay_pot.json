@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "salt",
+  "ingredient": {
+    "item": "bucketlib:clay_pot_of_water"
+  },
+  "result": {
+    "count": 4,
+    "item": "drstonemod:salt"
+  }
+}

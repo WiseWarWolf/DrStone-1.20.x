@@ -1,8 +1,11 @@
-// 1.20.1	2025-03-24T08:50:15.8238943	Item Models: drstonemod
+// 1.20.1	2025-03-24T09:50:21.3061467	Item Models: drstonemod
 c3963e692f60f2364c4e3f342ed812ef0906e9d9 assets/drstonemod/models/item/bow_drill.json
 b7d1fbd8bf39b059cb9e3d60dd7b4502776d1113 assets/drstonemod/models/item/clay_pot.json
 dd111e5e14b46ae0dc2ead85a4d221558ee0aa53 assets/drstonemod/models/item/drago.json
+7a31752f9012c14afb9a439c0d7e27351b4535a2 assets/drstonemod/models/item/grass_skirt.json
 09f42df30d4f8f50781e17bdb874596b3b76f482 assets/drstonemod/models/item/hemp.json
 04c4374a6224620c790badec5d45777243f11d9b assets/drstonemod/models/item/metal_detector.json
 5beffc84654b7f5653e1b7595235d16cb9b13229 assets/drstonemod/models/item/rejuvenating_fluid.json
+9206b44a585dec48ff0aad9e1f7e4b763a295f95 assets/drstonemod/models/item/rope.json
+4e0680ecb0e9162d42d04d6482871660025e6377 assets/drstonemod/models/item/salt.json
 4718703cada541e39eb88c6b7523bff672cf58bd assets/drstonemod/models/item/sulfa_drug.json

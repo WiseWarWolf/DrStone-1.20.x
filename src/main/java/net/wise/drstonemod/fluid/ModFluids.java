@@ -1,6 +1,8 @@
 package net.wise.drstonemod.fluid;
 
 import cech12.bucketlib.BucketLib;
+import cech12.bucketlib.api.BucketLibApi;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.Fluids;
@@ -46,8 +48,6 @@ public class ModFluids extends Fluids{
     public static final ForgeFlowingFluid.Properties ETH_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
             ModFluidTypes.ETH_FLUID_TYPE, SOURCE_ETH, FLOWING_ETH)
             .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.ETH_BLOCK).bucket(ModItems.ETH_POT);
-
-
     public static void register(IEventBus eventBus) {
         FLUIDS.register(eventBus);
     }

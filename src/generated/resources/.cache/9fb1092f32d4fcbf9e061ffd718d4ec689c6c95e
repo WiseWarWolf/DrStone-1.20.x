@@ -1,5 +1,13 @@
-// 1.20.1	2025-03-22T19:10:32.2125664	Recipes
+// 1.20.1	2025-03-24T11:13:45.0850494	Recipes
+32f277befa1a2e87d093a66b3432b1eb8ecf3a6f data/drstonemod/advancements/recipes/misc/block_of_salt.json
 63ae7c96df0080b65b0dba064cca16151a689804 data/drstonemod/advancements/recipes/misc/bundle_of_hemp.json
 c9042ef19d97e1dfae4f7405035ded6eb5cc089d data/drstonemod/advancements/recipes/misc/hemp.json
+2d6198a027f19193900433f2c880ccae1a0f8cec data/drstonemod/advancements/recipes/misc/salt.json
+56e2266491306edf475ec8d3207e61ef8caa4bb7 data/drstonemod/advancements/recipes/misc/salt_from_smelting_clay_pot.json
+e96a604228da84b156b5d56241cee00f7e01d423 data/drstonemod/advancements/recipes/misc/salt_from_smelting_water_bucket.json
+96b04f19f40968859ad56797283ff4b71aa1865d data/drstonemod/recipes/block_of_salt.json
 b90b9aa2afd06476e11752414b1bc1383fff27f3 data/drstonemod/recipes/bundle_of_hemp.json
 55b30527e376b22efc5b3e2302aee68bd33de003 data/drstonemod/recipes/hemp.json
+1afead3f4838a352ff4c6efb3a8c08f64562cd62 data/drstonemod/recipes/salt.json
+a06e50664f7b5ce8272d44fdd8b7bf89f73d368c data/drstonemod/recipes/salt_from_smelting_clay_pot.json
+061d1f9f604e9f147f8244602c37221c130b2255 data/drstonemod/recipes/salt_from_smelting_water_bucket.json
