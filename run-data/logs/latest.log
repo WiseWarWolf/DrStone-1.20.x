@@ -1,33 +1,33 @@
-[25Mar2025 18:32:14.682] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\tymel\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.25, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, drstonemod, --all, --output, D:\Minecraft MDK\DrStone-1.20.x\src\generated\resources, --existing, D:\Minecraft MDK\DrStone-1.20.x\src\main\resources]
-[25Mar2025 18:32:14.685] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[25Mar2025 18:32:14.805] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[25Mar2025 18:32:14.854] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/tymel/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[25Mar2025 18:32:15.174] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\tymel\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.25\84e3a76ab0b8c86c81d9d7db9cec2af7e910c770\javafmllanguage-1.20.1-47.3.25.jar is missing mods.toml file
-[25Mar2025 18:32:15.179] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\tymel\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.25\520e07491b731479fec85d3a4425b6f684f0e646\lowcodelanguage-1.20.1-47.3.25.jar is missing mods.toml file
-[25Mar2025 18:32:15.183] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\tymel\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.25\23cb6e8723dd914422a03d8a64e3cc17019c2fc1\mclanguage-1.20.1-47.3.25.jar is missing mods.toml file
-[25Mar2025 18:32:15.188] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\tymel\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.25\de973d0ee85f4444f81fdbeeef54c82a9a048c8f\fmlcore-1.20.1-47.3.25.jar is missing mods.toml file
-[25Mar2025 18:32:15.286] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[25Mar2025 18:32:16.668] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[25Mar2025 18:32:16.670] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\tymel\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, drstonemod, --all, --output, D:\Minecraft MDK\DrStone-1.20.x\src\generated\resources, --existing, D:\Minecraft MDK\DrStone-1.20.x\src\main\resources]
-[25Mar2025 18:32:17.078] [main/INFO] [mixin/]: Remapping refMap mixins.bucketlib.refmap.json using D:\Minecraft MDK\DrStone-1.20.x\build/createSrgToMcp/output.srg
-[25Mar2025 18:32:17.393] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [drstonemod]
-[25Mar2025 18:32:21.636] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.25, for MC 1.20.1 with MCP 20230612.114412
-[25Mar2025 18:32:21.639] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.25 Initialized
-[25Mar2025 18:32:22.086] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/tymel/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.25_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.25_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[25Mar2025 18:32:22.087] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/tymel/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.25_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.25_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[25Mar2025 18:32:22.305] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[25Mar2025 18:32:22.362] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 56 ms
-[25Mar2025 18:32:22.362] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[25Mar2025 18:32:22.394] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 32 ms
-[25Mar2025 18:32:22.395] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: drstonemod
-[25Mar2025 18:32:22.520] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: drstonemod finished after 125 ms
-[25Mar2025 18:32:22.521] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: drstonemod
-[25Mar2025 18:32:22.530] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: drstonemod finished after 10 ms
-[25Mar2025 18:32:22.530] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id drstonemod
-[25Mar2025 18:32:22.545] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id drstonemod finished after 13 ms
-[25Mar2025 18:32:22.545] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id drstonemod
-[25Mar2025 18:32:22.546] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id drstonemod finished after 0 ms
-[25Mar2025 18:32:22.546] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : drstonemod
-[25Mar2025 18:32:22.555] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : drstonemod finished after 9 ms
-[25Mar2025 18:32:22.555] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 250 ms
-[25Mar2025 18:32:22.566] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 57, old count: 53, new count: 58, removed stale: 0, written: 4
+[26Mar2025 14:38:09.167] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\tymel\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.25, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, drstonemod, --all, --output, D:\Minecraft MDK\DrStone-1.20.x\src\generated\resources, --existing, D:\Minecraft MDK\DrStone-1.20.x\src\main\resources]
+[26Mar2025 14:38:09.172] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[26Mar2025 14:38:09.289] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[26Mar2025 14:38:09.347] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/tymel/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[26Mar2025 14:38:09.648] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\tymel\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.25\84e3a76ab0b8c86c81d9d7db9cec2af7e910c770\javafmllanguage-1.20.1-47.3.25.jar is missing mods.toml file
+[26Mar2025 14:38:09.652] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\tymel\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.25\520e07491b731479fec85d3a4425b6f684f0e646\lowcodelanguage-1.20.1-47.3.25.jar is missing mods.toml file
+[26Mar2025 14:38:09.656] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\tymel\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.25\23cb6e8723dd914422a03d8a64e3cc17019c2fc1\mclanguage-1.20.1-47.3.25.jar is missing mods.toml file
+[26Mar2025 14:38:09.659] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\tymel\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.25\de973d0ee85f4444f81fdbeeef54c82a9a048c8f\fmlcore-1.20.1-47.3.25.jar is missing mods.toml file
+[26Mar2025 14:38:09.749] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[26Mar2025 14:38:11.067] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26Mar2025 14:38:11.068] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\tymel\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, drstonemod, --all, --output, D:\Minecraft MDK\DrStone-1.20.x\src\generated\resources, --existing, D:\Minecraft MDK\DrStone-1.20.x\src\main\resources]
+[26Mar2025 14:38:11.503] [main/INFO] [mixin/]: Remapping refMap mixins.bucketlib.refmap.json using D:\Minecraft MDK\DrStone-1.20.x\build/createSrgToMcp/output.srg
+[26Mar2025 14:38:11.851] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [drstonemod]
+[26Mar2025 14:38:16.362] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.25, for MC 1.20.1 with MCP 20230612.114412
+[26Mar2025 14:38:16.365] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.25 Initialized
+[26Mar2025 14:38:16.874] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/tymel/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.25_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.25_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[26Mar2025 14:38:16.874] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/tymel/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.25_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.25_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[26Mar2025 14:38:17.114] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[26Mar2025 14:38:17.163] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 48 ms
+[26Mar2025 14:38:17.163] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[26Mar2025 14:38:17.207] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 43 ms
+[26Mar2025 14:38:17.208] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: drstonemod
+[26Mar2025 14:38:17.359] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: drstonemod finished after 151 ms
+[26Mar2025 14:38:17.359] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: drstonemod
+[26Mar2025 14:38:17.374] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: drstonemod finished after 14 ms
+[26Mar2025 14:38:17.374] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id drstonemod
+[26Mar2025 14:38:17.390] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id drstonemod finished after 16 ms
+[26Mar2025 14:38:17.390] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id drstonemod
+[26Mar2025 14:38:17.392] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id drstonemod finished after 0 ms
+[26Mar2025 14:38:17.392] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : drstonemod
+[26Mar2025 14:38:17.404] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : drstonemod finished after 12 ms
+[26Mar2025 14:38:17.405] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 290 ms
+[26Mar2025 14:38:17.416] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 61, old count: 61, new count: 62, removed stale: 0, written: 1

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "drstonemod:block/distillation_earthenware_bottom",
+    "east": "drstonemod:block/distillation_earthenware_sides",
+    "north": "drstonemod:block/distillation_earthenware_sides",
+    "particle": "drstonemod:block/distillation_earthenware_sides",
+    "south": "drstonemod:block/distillation_earthenware_sides",
+    "up": "drstonemod:block/distillation_earthenware_top",
+    "west": "drstonemod:block/distillation_earthenware_sides"
+  }
+}

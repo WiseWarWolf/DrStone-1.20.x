@@ -17,9 +17,27 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.BUNDLE_OF_HEMP);
         blockWithItem(ModBlocks.BLOCK_OF_SALT);
+        dynamicBlockWithItem(ModBlocks.DISTILLATION_EARTHENWARE, "block/distillation_earthenware_bottom", "block/distillation_earthenware_top", "block/distillation_earthenware_sides","block/distillation_earthenware_sides");
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
     }
+
+    private void dynamicBlockWithItem(RegistryObject<Block> block, String downTexture, String upTexture, String sideTexture, String parTexture) {
+        simpleBlock(block.get(), models().cube(block.getId().getPath(),
+                modLoc(downTexture),
+                modLoc(upTexture),
+                modLoc(sideTexture),
+                modLoc(sideTexture),
+                modLoc(sideTexture),
+                modLoc(sideTexture)
+        ));
+        simpleBlockItem(block.get(), models().getExistingFile(modLoc("block/" + block.getId().getPath())));
+        // Set the particle texture explicitly
+        models().withExistingParent(block.getId().getPath(), "block/cube").texture("particle", modLoc(parTexture));
+    }
+
 }
+

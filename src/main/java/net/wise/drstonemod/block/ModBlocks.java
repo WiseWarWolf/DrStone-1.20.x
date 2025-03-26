@@ -30,6 +30,9 @@ public class ModBlocks
     public static final RegistryObject<Block> BLOCK_OF_SALT = registerBlock("block_of_salt",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SAND)));
 
+    public static final RegistryObject<Block> DISTILLATION_EARTHENWARE = registerBlock("distillation_earthenware",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRAFTING_TABLE).sound(SoundType.STONE)));
+
     //Fluid sources
 
     public static final RegistryObject<LiquidBlock> WINE_BLOCK = BLOCKS.register("wine_block",
