@@ -4,6 +4,7 @@ import cech12.bucketlib.api.item.UniversalBucketItem;
 import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.FlintAndSteelItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -32,7 +33,13 @@ public class ModItems{
     public static final RegistryObject<Item> ROPE = ITEMS.register("rope",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> PLANT_FIBER = ITEMS.register("plant_fiber",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> GRASS_SKIRT = ITEMS.register("grass_skirt",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> UNFIRED_CLAY_POT = ITEMS.register("unfired_clay_pot",
             () -> new Item(new Item.Properties()));
 
     // Advanced Items
@@ -58,6 +65,15 @@ public class ModItems{
 
     public static final RegistryObject<Item> ETH_POT = ITEMS.register("eth_pot",
             () -> new BucketItem(ModFluids.SOURCE_ETH,  new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> BUCKET_ETH = ITEMS.register("bucket_eth",
+            () -> new BucketItem(ModFluids.SOURCE_ETH,  new Item.Properties().stacksTo(1).craftRemainder(Items.BUCKET)));
+
+    public static final RegistryObject<Item> BUCKET_BAT = ITEMS.register("bucket_bat",
+            () -> new BucketItem(ModFluids.SOURCE_BAT,  new Item.Properties().stacksTo(1).craftRemainder(Items.BUCKET)));
+
+    public static final RegistryObject<Item> BUCKET_WINE = ITEMS.register("bucket_wine",
+            () -> new BucketItem(ModFluids.SOURCE_WINE,  new Item.Properties().stacksTo(1).craftRemainder(Items.BUCKET)));
 
     // Needed to add items
     public static void register(IEventBus eventBus){

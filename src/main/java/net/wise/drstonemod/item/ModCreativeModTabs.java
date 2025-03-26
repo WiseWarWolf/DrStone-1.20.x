@@ -30,12 +30,16 @@ public class ModCreativeModTabs
                         pOutput.accept(ModItems.DRAGO.get());
                         pOutput.accept(ModItems.REJUVENATING_FLUID.get());
                         pOutput.accept(ModItems.HEMP.get());
-
+                        pOutput.accept(ModItems.UNFIRED_CLAY_POT.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModItems.SULFA_DRUG.get());
                         pOutput.accept(ModItems.BOW_DRILL.get());
                         pOutput.accept(ModItems.ROPE.get());
                         pOutput.accept(ModItems.SALT.get());
+                        pOutput.accept(ModItems.BUCKET_BAT.get());
+                        pOutput.accept(ModItems.BUCKET_ETH.get());
+                        pOutput.accept(ModItems.BUCKET_WINE.get());
+                        pOutput.accept(ModItems.PLANT_FIBER.get());
 
                         //Armor
                         pOutput.accept(ModItems.GRASS_SKIRT.get());

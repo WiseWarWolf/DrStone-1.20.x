@@ -22,9 +22,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     private static final List<ItemLike> ORE_SMELTABLES = List.of();
     private static final List<ItemLike> SMELTING = List.of(Items.WATER_BUCKET, ModItems.CLAY_POT.get());
-
-
-    private static final List<ItemLike> RESULT_SALT = List.of(ModItems.SALT.get());
+    private static final List<ItemLike> CLAY = List.of(ModItems.UNFIRED_CLAY_POT.get());
 
 
     public ModRecipeProvider(PackOutput pOutput) {
@@ -35,6 +33,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
         oreBlasting(pWriter, ORE_SMELTABLES, RecipeCategory.MISC, ModItems.SULFA_DRUG.get(), 0.25f, 100, "sulfa_drug");
         oreSmelting(pWriter, ORE_SMELTABLES, RecipeCategory.MISC, ModItems.SULFA_DRUG.get(), 0.25f, 200, "sulfa_drug");
+
+        oreSmelting(pWriter, CLAY, RecipeCategory.MISC, ModItems.CLAY_POT.get(), 0.25f, 200, "clay_pot");
 
         SmeltingMuilt(pWriter, SMELTING , RecipeCategory.MISC, ModItems.SALT.get(), 0.25f, 200, "salt", 4);
 
@@ -61,6 +61,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SALT.get(), 9)
                 .requires(ModBlocks.BLOCK_OF_SALT.get())
                 .unlockedBy(getHasName(ModBlocks.BLOCK_OF_SALT.get()), has(ModBlocks.BLOCK_OF_SALT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.UNFIRED_CLAY_POT.get())
+                .pattern("# #")
+                .pattern(" # ")
+                .define('#', Items.CLAY_BALL)
+                .unlockedBy(getHasName(Items.CLAY_BALL), has(Items.CLAY_BALL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROPE.get())
+                .pattern("##")
+                .pattern("# ")
+                .define('#', ModItems.PLANT_FIBER.get())
+                .unlockedBy(getHasName(ModItems.PLANT_FIBER.get()), has(ModItems.PLANT_FIBER.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GRASS_SKIRT.get())
+                .pattern("###")
+                .pattern("???")
+                .define('#', ModItems.ROPE.get())
+                .define('?', ModItems.PLANT_FIBER.get())
+                .unlockedBy(getHasName(ModItems.PLANT_FIBER.get()), has(ModItems.PLANT_FIBER.get()))
                 .save(pWriter);
     }
 

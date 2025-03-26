@@ -5,7 +5,8 @@
   "experience": 0.25,
   "group": "salt",
   "ingredient": {
-    "item": "bucketlib:clay_pot_of_water"
+    "type": "bucketlib:fluid",
+    "tag": "minecraft:water"
   },
   "result": {
     "count": 4,

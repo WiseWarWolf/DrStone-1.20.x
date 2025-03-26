@@ -20,6 +20,7 @@ import net.wise.drstonemod.fluid.ModFluidTypes;
 import net.wise.drstonemod.fluid.ModFluids;
 import net.wise.drstonemod.item.ModCreativeModTabs;
 import net.wise.drstonemod.item.ModItems;
+import net.wise.drstonemod.loot.ModLootModifiers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -41,7 +42,7 @@ public class DrStoneMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
-
+        ModLootModifiers.register(modEventBus);
         ModFluids.register(modEventBus);
         ModFluidTypes.register(modEventBus);
 

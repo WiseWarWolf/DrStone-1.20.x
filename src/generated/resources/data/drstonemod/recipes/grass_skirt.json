@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "drstonemod:rope"
+    },
+    "?": {
+      "item": "drstonemod:plant_fiber"
+    }
+  },
+  "pattern": [
+    "###",
+    "???"
+  ],
+  "result": {
+    "item": "drstonemod:grass_skirt"
+  },
+  "show_notification": true
+}

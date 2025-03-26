@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "drstonemod:plant_fiber"
+    }
+  },
+  "pattern": [
+    "##",
+    "# "
+  ],
+  "result": {
+    "item": "drstonemod:rope"
+  },
+  "show_notification": true
+}

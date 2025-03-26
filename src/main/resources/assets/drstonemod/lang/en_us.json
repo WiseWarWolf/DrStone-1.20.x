@@ -6,10 +6,15 @@
   "item.drstonemod.salt": "Salt",
   "item.drstonemod.rope": "Rope",
   "item.drstonemod.grass_skirt": "Grass Skirt",
-
+  "item.drstonemod.plant_fiber": "Plant Fiber",
+  "item.drstonemod.unfired_clay_pot": "Unfired Clay Pot",
 
   "item.drstonemod.metal_detector": "Metal Detector",
   "item.drstonemod.sulfa_drug": "Sulfa Drug",
+
+  "item.drstonemod.bucket_wine": "Wine Bucket",
+  "item.drstonemod.bucket_eth": "Ethanol Bucket",
+  "item.drstonemod.bucket_bat": "Nitric Acid Bucket",
 
   "item.drstonemod.bow_drill": "Bow Drill",
   "item.drstonemod.clay_pot": "Clay Pot",

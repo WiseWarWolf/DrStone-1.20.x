@@ -1,0 +1,5 @@
+// 1.20.1	2025-03-25T18:12:04.297397	Global Loot Modifiers : drstonemod
+20cb7dbd788ea704063114850ab7b0a012873519 data/drstonemod/loot_modifiers/drago_from_villagers.json
+ca2fed8e991a02261cb8637cd8cf7946f6c8de59 data/drstonemod/loot_modifiers/plant_fiber_from_fern.json
+b8553723cfa2f389717457d0549b98af28d8a797 data/drstonemod/loot_modifiers/plant_fiber_from_grass.json
+75c383db693ed642d94764965b3afa10211bcafa data/forge/loot_modifiers/global_loot_modifiers.json
